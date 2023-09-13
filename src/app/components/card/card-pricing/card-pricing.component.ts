@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-pricing.component.css']
 })
 export class CardPricingComponent {
-
+  gameType: string = 'Digital PS4';
+  gamePrice: string = 'R$399,99';
 }
